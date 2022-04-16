@@ -184,3 +184,55 @@ footer span {
 	color: #77a466;
 	font-size: 0.875em;
 }
+
+@media all and (min-width:768px) {
+    /* Tablet styles here */
+
+	bottom-section {
+		justify-content: space-between;
+        align-items: flex-start;
+        border-top: 1px solid #eee;
+	}
+	
+	section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
+	
+	.section-one,
+	.section-two,
+	.section-three {
+		width: 33%;
+		height: auto;
+	}
+
+
+}
+ 
+
+
+
+@media all and (min-width:1200px) {
+    /* Desktop styles here */
+	header {
+		max-width: 1200px;
+		width: 90%;
+	}
+
+	header h1 {
+		width: 50%;
+		padding: 0;
+		border-bottom: none;
+		text-align: left;
+		}
+
+	header nav {
+		width: 50%;
+	}	
+		
+	header nav ul {
+		display: flex;
+        justify-content: space-between;
+	}
+
+}
